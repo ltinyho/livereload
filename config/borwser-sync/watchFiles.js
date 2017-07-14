@@ -12,7 +12,8 @@ if(basePath!=''){
 var watachFiles = [
   "knew/View/**/*.html",
   "source/css/**/*.css",
-  "source/js/**/*.js"
+  "source/js/**/*.js",
+  "new/View/**/*.html",
 ].map(function(val){
   return basePath+ val;
 })
