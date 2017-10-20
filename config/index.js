@@ -1,6 +1,6 @@
-var borwserSyncConfig = require('./borwser-sync')
+var generateConfig = require('./browser-sync').generateConfig
 
 module.exports = {
-  borwserSyncConfig:borwserSyncConfig
+  generateConfig
 }
 
