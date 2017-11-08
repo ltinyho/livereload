@@ -14,6 +14,7 @@ function watchFiles(targetDir) {
     "new/View/**/*.html",
     "knew/View/**/*.html",
     "source/css/**/*.css",
+    "lzh/**/*.php",
   ].map(function(val){
     return basePath+ val;
   })
