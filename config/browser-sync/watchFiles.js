@@ -14,10 +14,12 @@ function watchFiles(targetDir) {
     "new/View/**/*.html",
     "knew/View/**/*.html",
     "source/css/**/*.css",
+    "source/exam/css/dark-theme-mm.css",
     "lzh/**/*.php",
   ].map(function(val){
     return basePath+ val;
   })
+  console.log(files)
   return files
 }
 module.exports = {
