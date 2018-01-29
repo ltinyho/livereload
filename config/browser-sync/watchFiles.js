@@ -16,6 +16,7 @@ function watchFiles(targetDir) {
     "source/css/**/*.css",
     "source/js/**/*.js",
     "source/exam/css/dark-theme-mm.css",
+    "new/Aps/Public/Home/css/layout.css",
     "lzh/**/*.php",
   ].map(function(val){
     return basePath+ val;
