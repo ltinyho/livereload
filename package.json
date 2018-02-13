@@ -11,7 +11,7 @@
     "gulp": "^3.9.1"
   },
   "scripts": {
-    "gulp":"gulp"
+    "gulp":"gulp kaoyayacn"
   },
   "repository": {
     "type": "git",
