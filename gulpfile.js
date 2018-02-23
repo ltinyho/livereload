@@ -5,7 +5,7 @@ var watchFiles  = require('./config/browser-sync/watchFiles').watchFiles;
 tasks.forEach((item) => {
 
   gulp.task(item.targetDir, function () {
-    
+
     let config       = {
       // 监控的文件
       /* server: {
@@ -14,7 +14,7 @@ tasks.forEach((item) => {
        },*/
       notify: false,
       scrollProportionally: true, //视口同步到顶部位置
-      browser: ['google chrome'],
+      browser: ['google chrome', 'google-chrome'],
       files: watchFiles(item.targetDir, item.watchFiles),
     };
     config.port      = item.port;
